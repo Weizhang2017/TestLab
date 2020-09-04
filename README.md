@@ -25,7 +25,7 @@ Configure Nginx as reverse proxy server for the Docker registry: [docker-registr
 Create a password file for the docker registry
 
 ```shell
-docker run --rm --entrypoint htpasswd registry:2.7.0 -bn <username> <password> > auth/nginx.htpasswd
+docker run --rm --entrypoint htpasswd registry:2.7.0 -bn <username> <password> auth/nginx.htpasswd
 ```
 
 
