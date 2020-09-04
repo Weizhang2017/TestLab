@@ -21,7 +21,7 @@ docker push localhost:5000/centos-ansible
 ```
 
 ##### 4. Deploy Nginx in front of the docker registry and add auth in it
-Configure Nginx as reverse proxy server for the Docker registry: [docker-registry.conf]()
+Configure Nginx as reverse proxy server for the Docker registry: [docker-registry.conf](https://github.com/Weizhang2017/TestLab/blob/master/docker-registry.conf)
 Create a password file for the docker registry
 
 ```shell
